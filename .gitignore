@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python build and cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tool caches and reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Charts made while trying the tool in the project root (README charts live in docs/images)
+/*.png
+/*.svg
+/*.pdf
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

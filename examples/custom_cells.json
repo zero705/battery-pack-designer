@@ -1,0 +1,21 @@
+{
+  "_comment": "Example of a custom cell file. Use it with: packdesign cells --cells-file examples/custom_cells.json",
+  "cells": [
+    {
+      "id": "example-21700",
+      "manufacturer": "Example",
+      "model": "EX-21700-40",
+      "chemistry": "li-ion",
+      "form_factor": "21700",
+      "nominal_voltage_v": 3.6,
+      "max_voltage_v": 4.2,
+      "cutoff_voltage_v": 2.5,
+      "capacity_ah": 4.0,
+      "max_continuous_discharge_a": 30.0,
+      "max_charge_a": 6.0,
+      "internal_resistance_ohm": 0.015,
+      "mass_kg": 0.068,
+      "notes": "Fictional cell used to demonstrate the file format."
+    }
+  ]
+}
