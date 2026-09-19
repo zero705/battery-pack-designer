@@ -1,5 +1,6 @@
 # Battery Pack Designer
 
+[![CI](https://github.com/zero705/battery-pack-designer/actions/workflows/ci.yml/badge.svg)](https://github.com/zero705/battery-pack-designer/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
@@ -50,10 +51,11 @@ the high-power LG HG2 wins. Generated with `packdesign plot tradeoff`.*
 
 ## Installation
 
-Requires Python 3.10 or newer. Clone or download this repository, then run from its
-folder:
+Requires Python 3.10 or newer. Clone this repository, then install from its folder:
 
 ```bash
+git clone https://github.com/zero705/battery-pack-designer.git
+cd battery-pack-designer
 python -m pip install .            # the calculator (no dependencies)
 python -m pip install ".[plot]"    # plus charts (adds matplotlib)
 ```
@@ -318,7 +320,10 @@ This is the first project in a series about electric-vehicle battery engineering
 
 ## Author
 
-Ömer Faruk Şenol, Hybrid and Electric Vehicle Technology, İnönü University
+Ömer Faruk Şenol, Hybrid and Electric Vehicles Technology, İnönü University
+
+[GitHub](https://github.com/zero705) ·
+[LinkedIn](https://www.linkedin.com/in/%C3%B6mer-faruk-%C5%9Fenol-2778a63b5/)
 
 ## License
 
