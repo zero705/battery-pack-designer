@@ -307,20 +307,7 @@ done
 Continuous integration runs the linters, type checks and tests on Linux and Windows
 with Python 3.10 to 3.14 for every push and pull request.
 
-## Roadmap
 
-This is the first project in a series about electric-vehicle battery engineering:
-
-1. **Battery Pack Designer**: pack sizing and protection (this repository)
-2. Cell test data analysis: capacity fade and resistance growth on public datasets
-3. Equivalent-circuit cell model: an RC model fitted to measured data
-4. State-of-charge estimation: coulomb counting versus an extended Kalman filter
-5. BMS communication: CAN messages defined in a DBC file, on a virtual CAN bus
-6. BMS hardware: an 8S active-balancing BMS designed in KiCad
-
-## Author
-
-Ömer Faruk Şenol, Hybrid and Electric Vehicles Technology, İnönü University
 
 [GitHub](https://github.com/zero705) ·
 [LinkedIn](https://www.linkedin.com/in/%C3%B6mer-faruk-%C5%9Fenol-2778a63b5/)
